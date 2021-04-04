@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "treetech",
+  "version": "${version}",
+  "name": "TreeTech",
+  "description": "The Botania of tech mods.",
+  "authors": [
+    "MoonTheBird"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/MoonTheBird/treetechmod",
+    "sources": "https://github.com/MoonTheBird/treetechmod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/treetech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mtb.ttech.mainInit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "treetech.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*"
+  }
+}
